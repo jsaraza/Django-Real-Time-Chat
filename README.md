@@ -80,7 +80,7 @@ On the home page, we are given the two inputs, room name and username. Once a ro
 is entered. The HTML file communicated with the controller to check the model ensure that
 that name has never been created before, if it has we use that same room.
 
-As mentioned the HTML file [home.html](\templates\home.html) is contacts the controller:
+As mentioned the HTML file [home.html](templates/home.html) is contacts the controller:
 
 ```HTML
       <form id="post-form" method="POST" action="checkview">
