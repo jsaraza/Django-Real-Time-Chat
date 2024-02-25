@@ -30,7 +30,7 @@ responsible for handling the flow of requests and does not handle any logic.
 
 ## Controller
 
-The [views.py](views.py) file in this project acts as the controller and it handles the
+The [views.py](chat/views.py) file in this project acts as the controller and it handles the
 flow of traffic of requests.
 
 ```python
@@ -117,6 +117,8 @@ can start chatting with who ever else is within the same chat room.
 
 We use ajax to ensure a 0.5sec interval function, that provides any new chats that may
 appear while anyone is inside the chat
+
+Found inside the [room.html](templates/room.html)
 
 ```javascript
     <script>
